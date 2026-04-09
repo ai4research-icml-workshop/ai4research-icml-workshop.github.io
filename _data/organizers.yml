@@ -13,6 +13,7 @@
 - name: Edgar Dobriban
   affiliation: "University of Pennsylvania"
   photo: /assets/img/organizers/dobriban.jpg
+  photo_position: "center 20%"
   website: "https://statistics.wharton.upenn.edu/profile/dobriban/"
   scholar: ""
 
@@ -25,6 +26,7 @@
 - name: Ravi Vakil
   affiliation: "Stanford University"
   photo: /assets/img/organizers/vakil.jpg
+  photo_position: "center 25%"
   website: "https://math.stanford.edu/~vakil/"
   scholar: ""
 

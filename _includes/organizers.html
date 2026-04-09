@@ -11,6 +11,7 @@
           src="{{ org.photo | relative_url }}"
           alt="Photo of {{ org.name }}"
           loading="lazy"
+          {% if org.photo_position %}style="object-position: {{ org.photo_position }}"{% endif %}
         >
         <div class="organizer-info">
           <div class="organizer-name">{{ org.name }}</div>
