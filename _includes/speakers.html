@@ -12,14 +12,17 @@
           alt="Photo of {{ speaker.name }}"
           loading="lazy"
         >
-        <div class="speaker-name">{{ speaker.name }}</div>
-        <div class="speaker-affil">{{ speaker.affiliation }}</div>
-        {% if speaker.website != "" or speaker.scholar != "" %}
-        <div class="speaker-links">
-          {% if speaker.website != "" %}<a href="{{ speaker.website }}" target="_blank" rel="noopener">Website</a>{% endif %}
-          {% if speaker.scholar != "" %}<a href="{{ speaker.scholar }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+        <div class="speaker-content">
+          <div class="speaker-name">{{ speaker.name }}</div>
+          <div class="speaker-affil">{{ speaker.affiliation }}</div>
+          <p class="speaker-bio">{{ speaker.bio }}</p>
+          {% if speaker.website != "" or speaker.scholar != "" %}
+          <div class="speaker-links">
+            {% if speaker.website != "" %}<a href="{{ speaker.website }}" target="_blank" rel="noopener">Website</a>{% endif %}
+            {% if speaker.scholar != "" %}<a href="{{ speaker.scholar }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+          </div>
+          {% endif %}
         </div>
-        {% endif %}
       </div>
       {% endfor %}
     </div>

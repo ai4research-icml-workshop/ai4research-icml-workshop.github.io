@@ -1,35 +1,70 @@
 - name: Sergei Gukov
   affiliation: "Caltech · American Institute of Mathematics"
   photo: /assets/img/speakers/gukov.jpg
+  bio: >-
+    Sergei Gukov is the John D. MacArthur Professor of Theoretical Physics and
+    Mathematics at Caltech, Director of the Merkin Center for Pure and Applied
+    Mathematics, and Consulting Director of the American Institute of
+    Mathematics. His research interests include mathematics and machine
+    learning, quantum topology, gauge theory, and knot and 3-manifold
+    invariants.
   website: "https://www.gukov.caltech.edu/"
   scholar: ""
 
 - name: Remy Degenne
   affiliation: "Inria · University of Lille"
   photo: /assets/img/speakers/degenne.jpg
+  bio: >-
+    Remy Degenne is a tenured researcher in the Scool team at the Inria centre
+    at the University of Lille. He works on sequential machine learning,
+    especially bandit theory, and is interested in online and reinforcement
+    learning, statistics, and optimization. He is also a maintainer of Mathlib
+    for the Lean theorem prover.
   website: "https://remydegenne.github.io/"
   scholar: ""
 
 - name: Damek Davis
   affiliation: "University of Pennsylvania"
   photo: /assets/img/speakers/davis.jpg
+  bio: >-
+    Damek Davis is an Associate Professor in Wharton's Department of Statistics
+    and Data Science. His research interests are optimization and machine
+    learning, and he also works on AI for mathematics. He is currently an
+    associate editor at Mathematical Programming and Foundations of
+    Computational Mathematics.
   website: "https://damek.github.io/"
   scholar: ""
 
 - name: Rachel Ward
   affiliation: "UT Austin / Microsoft Research"
   photo: /assets/img/speakers/ward.jpg
+  bio: >-
+    Rachel Ward is the W. A. "Tex" Moncrief Distinguished Professor in
+    Computational Engineering and Sciences - Data Science and professor of
+    mathematics at UT Austin. She is recognized for contributions to sparse
+    approximation, stochastic optimization, and numerical linear algebra. Her
+    research lies broadly in the mathematics of data.
   website: "https://www.rachelward.site/"
   scholar: ""
 
 - name: Tracy Ke
   affiliation: "Harvard University"
   photo: /assets/img/speakers/ke.jpg
+  bio: >-
+    Zheng (Tracy) Ke is an Associate Professor in Statistics at Harvard
+    University. Her research interests include network data analysis, text
+    analysis and natural language processing, high-dimensional statistics,
+    machine learning, and bioinformatics and statistical genetics.
   website: "https://www.tracyke.net/"
   scholar: ""
 
 - name: Mehtaab Sawhney
   affiliation: "Columbia University / OpenAI"
   photo: /assets/img/speakers/sawhney.jpg
+  bio: >-
+    Mehtaab Sawhney is a Clay Research Fellow and a tenure-track assistant
+    professor at Columbia University. His research interests are broadly within
+    combinatorics, probability, analytic number theory, and theoretical
+    computer science.
   website: "https://www.math.columbia.edu/~msawhney/"
   scholar: ""

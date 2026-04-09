@@ -82,21 +82,34 @@
 // Speakers
 .speakers-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 24px;
 }
 
 .speaker-card {
-  text-align: center;
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid $color-border;
+  border-radius: 8px;
+  background: $color-bg;
+  height: 100%;
 }
 
 .speaker-photo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+  width: 112px;
+  height: 112px;
+  border-radius: 12px;
   object-fit: cover;
-  margin-bottom: 12px;
+  flex-shrink: 0;
   background: $color-border;
+}
+
+.speaker-content {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 
 .speaker-name {
@@ -113,14 +126,21 @@
   margin-top: 2px;
 }
 
+.speaker-bio {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.65;
+  color: $color-text-secondary;
+}
+
 .speaker-links {
-  margin-top: 6px;
-  font-size: 11px;
+  margin-top: 10px;
+  font-size: 12px;
   font-family: $font-sans;
 
   a {
     color: $color-accent;
-    margin: 0 4px;
+    margin-right: 10px;
 
     &:hover {
       text-decoration: underline;
@@ -378,7 +398,7 @@
 // Organizers
 .organizers-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 
@@ -451,4 +471,3 @@
 .footer-icml {
   font-size: 11px;
 }
-

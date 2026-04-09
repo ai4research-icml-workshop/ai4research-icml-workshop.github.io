@@ -42,7 +42,7 @@
   }
 
   .speakers-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .cfp-grid,
@@ -85,6 +85,17 @@
 
   .speakers-grid {
     grid-template-columns: 1fr;
+  }
+
+  .speaker-card {
+    flex-direction: column;
+  }
+
+  .speaker-photo {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
 
   .schedule-item {
