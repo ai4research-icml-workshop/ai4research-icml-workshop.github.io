@@ -1,0 +1,35 @@
+- name: Sergei Gukov
+  affiliation: "Caltech · American Institute of Mathematics"
+  photo: /assets/img/speakers/gukov.jpg
+  website: ""
+  scholar: ""
+
+- name: Remy Degenne
+  affiliation: "Inria · University of Lille"
+  photo: /assets/img/speakers/degenne.jpg
+  website: "https://remydegenne.github.io/"
+  scholar: ""
+
+- name: Damek Davis
+  affiliation: "University of Pennsylvania"
+  photo: /assets/img/speakers/davis.jpg
+  website: ""
+  scholar: ""
+
+- name: Rachel Ward
+  affiliation: "UT Austin · Microsoft Research"
+  photo: /assets/img/speakers/ward.jpg
+  website: ""
+  scholar: ""
+
+- name: Tracy Ke
+  affiliation: "Harvard University"
+  photo: /assets/img/speakers/ke.jpg
+  website: "https://www.tracyke.net/"
+  scholar: ""
+
+- name: Mehtaab Sawhney
+  affiliation: "Columbia University / OpenAI"
+  photo: /assets/img/speakers/sawhney.jpg
+  website: "https://www.math.columbia.edu/~msawhney/"
+  scholar: ""

@@ -1,0 +1,35 @@
+- name: Misha Belkin
+  affiliation: "UC San Diego"
+  photo: /assets/img/organizers/belkin.jpg
+  website: "http://misha.belkin-wang.org/"
+  scholar: "https://scholar.google.com/citations?user=Iwd9DdkAAAAJ"
+
+- name: Sébastien Bubeck
+  affiliation: "OpenAI"
+  photo: /assets/img/organizers/bubeck.jpg
+  website: ""
+  scholar: "https://scholar.google.com/citations?user=V2Y1L4sAAAAJ"
+
+- name: Edgar Dobriban
+  affiliation: "University of Pennsylvania"
+  photo: /assets/img/organizers/dobriban.jpg
+  website: "https://statistics.wharton.upenn.edu/profile/dobriban/"
+  scholar: "https://scholar.google.com/citations?user=aGvH4yMAAAAJ"
+
+- name: Dmitriy Drusvyatskiy
+  affiliation: "UC San Diego"
+  photo: /assets/img/organizers/drusvyatskiy.jpg
+  website: "https://sites.google.com/view/dmitriy-drusvyatskiy"
+  scholar: "https://scholar.google.com/citations?user=Daa_Wy4AAAAJ"
+
+- name: Ravi Vakil
+  affiliation: "Stanford University"
+  photo: /assets/img/organizers/vakil.jpg
+  website: "https://math.stanford.edu/~vakil/"
+  scholar: ""
+
+- name: Fanny Yang
+  affiliation: "ETH Zürich"
+  photo: /assets/img/organizers/yang.jpg
+  website: "https://sml.inf.ethz.ch/groupsite/group/fannyy/"
+  scholar: "https://scholar.google.com/citations?user=BfDKicQAAAAJ"
