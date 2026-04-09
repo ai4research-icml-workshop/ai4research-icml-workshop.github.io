@@ -12,7 +12,7 @@ body {
   font-family: $font-serif;
   color: $color-text;
   background: $color-bg;
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 a {
@@ -56,9 +56,9 @@ img {
 // Section shared styles
 .section-label {
   font-size: 11px;
-  letter-spacing: 2.5px;
+  letter-spacing: 2.4px;
   text-transform: uppercase;
-  color: $color-accent;
+  color: $color-text-secondary;
   font-family: $font-sans;
   font-weight: 600;
   margin-bottom: 6px;
@@ -73,10 +73,10 @@ img {
 }
 
 .section-divider {
-  width: 30px;
-  height: 2px;
-  background: $color-accent;
-  margin-bottom: 24px;
+  width: 44px;
+  height: 1px;
+  background: $color-text;
+  margin-bottom: 22px;
 }
 
 // Back to top button
