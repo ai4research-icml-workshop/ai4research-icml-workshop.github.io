@@ -140,3 +140,41 @@
   margin-top: 2px;
   font-family: $font-sans;
 }
+
+// Debate
+.debate-intro,
+.debate-format-intro,
+.debate-note {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+.debate-motion {
+  background: $color-bg-alt;
+  border-left: 3px solid $color-accent;
+  padding: 16px 20px;
+  font-style: italic;
+  color: #444;
+  margin: 16px 0 24px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.debate-format {
+  font-size: 13px;
+  color: #555;
+  padding-left: 20px;
+  margin-bottom: 16px;
+
+  li {
+    margin-bottom: 6px;
+    line-height: 1.5;
+  }
+}
+
+.debate-note {
+  font-size: 13px;
+  color: $color-text-secondary;
+}
