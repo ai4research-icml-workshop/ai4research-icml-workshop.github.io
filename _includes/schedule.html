@@ -10,7 +10,13 @@
         <div class="schedule-time">{{ item.time }}</div>
         <div class="schedule-desc">
           {% if item.type == "talk" %}
-            {{ item.title }}: <span class="schedule-speaker">{{ item.speaker }}</span>
+            {% assign speaker_data = nil %}
+            {% for s in site.data.speakers %}
+              {% if s.name == item.speaker %}
+                {% assign speaker_data = s %}
+              {% endif %}
+            {% endfor %}
+            {{ item.title }}: {% if speaker_data and speaker_data.website != "" %}<a href="{{ speaker_data.website }}" target="_blank" rel="noopener" class="schedule-speaker">{{ item.speaker }}</a>{% else %}<span class="schedule-speaker">{{ item.speaker }}</span>{% endif %}
             <div class="schedule-detail">{{ item.affiliation }}</div>
           {% else %}
             {{ item.title }}
