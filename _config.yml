@@ -6,6 +6,9 @@ baseurl: ""
 # Update this URL once the workshop OpenReview page is created
 submission_url: "https://openreview.net/"
 
+# Update this to a shared workshop email when available
+contact_email: "ai4research-icml@googlegroups.com"
+
 sass:
   style: compressed
 

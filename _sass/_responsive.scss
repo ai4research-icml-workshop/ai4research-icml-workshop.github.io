@@ -45,12 +45,22 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .cfp-grid {
+  .cfp-grid,
+  .cfp-grid--three {
+    grid-template-columns: 1fr;
+  }
+
+  .venue-grid {
     grid-template-columns: 1fr;
   }
 
   .organizers-grid {
     grid-template-columns: 1fr;
+  }
+
+  .news-item {
+    flex-direction: column;
+    gap: 4px;
   }
 }
 

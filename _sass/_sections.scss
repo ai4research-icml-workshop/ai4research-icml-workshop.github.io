@@ -12,6 +12,38 @@
   background: $color-bg-alt;
 }
 
+// News
+.news-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-item {
+  display: flex;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid $color-border;
+  font-size: 14px;
+  line-height: 1.6;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.news-date {
+  font-family: $font-sans;
+  font-size: 12px;
+  font-weight: 500;
+  color: $color-text-secondary;
+  min-width: 100px;
+  flex-shrink: 0;
+}
+
+.news-text {
+  color: #444;
+}
+
 // About
 .about-summary {
   font-size: 14px;
@@ -225,6 +257,17 @@
   margin-bottom: 24px;
 }
 
+.cfp-grid--three {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cfp-timezone {
+  font-size: 11px;
+  color: $color-text-secondary;
+  font-style: italic;
+  margin-top: 8px;
+}
+
 .cfp-card {
   background: $color-bg;
   border: 1px solid $color-border;
@@ -271,6 +314,47 @@
   &:hover {
     background: darken($color-accent, 8%);
     color: #fff;
+  }
+}
+
+// Venue
+.venue-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.venue-card {
+  background: $color-bg-alt;
+  border: 1px solid $color-border;
+  border-radius: 6px;
+  padding: 20px;
+
+  h3 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    font-family: $font-sans;
+  }
+
+  p {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 6px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    color: $color-accent;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
