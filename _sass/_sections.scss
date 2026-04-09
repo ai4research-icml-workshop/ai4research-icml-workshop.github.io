@@ -1,0 +1,48 @@
+// Shared section styles
+.section {
+  padding: $section-padding-v $section-padding-h;
+}
+
+.section-inner {
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+.section-alt {
+  background: $color-bg-alt;
+}
+
+// About
+.about-summary {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 24px;
+  line-height: 1.7;
+}
+
+.topics {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.topic-card {
+  background: $color-bg;
+  border: 1px solid $color-border;
+  border-radius: 6px;
+  padding: 20px;
+
+  h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    font-family: $font-sans;
+  }
+
+  p {
+    font-size: 13px;
+    color: $color-text-secondary;
+    line-height: 1.6;
+  }
+}
