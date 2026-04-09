@@ -1,13 +1,45 @@
 title: "AI as a Tool for Mathematics, Computer Science, and Machine Learning"
+short_title: "AI4Research"
 description: "ICML 2026 Workshop — Helping researchers integrate AI into core research workflows"
 url: "https://ai4research-icml-workshop.github.io"
 baseurl: ""
 
-# Update this URL once the workshop OpenReview page is created
-submission_url: "https://openreview.net/"
+# ============================================================
+# WORKSHOP INFO — edit this section to update the site globally
+# ============================================================
 
-# Update this to a shared workshop email when available
+# Conference
+conference: "ICML 2026"
+conference_url: "https://icml.cc/Conferences/2026"
+conference_dates: "July 6–11, 2026"
+
+# Workshop
+workshop_dates: "July 10–11, 2026"
+workshop_format: "Full-day, in-person"
+timezone: "KST (UTC+9)"
+
+# Venue
+venue: "COEX Convention & Exhibition Center"
+city: "Seoul, South Korea"
+
+# Contact & Submission
 contact_email: "ai4research-icml@googlegroups.com"
+submission_url: "https://openreview.net/"      # Update when workshop OpenReview page is created
+submission_open: false                          # Set to true when submissions open
+formatting_url: "https://icml.cc/Conferences/2026/CallForPapers"
+
+# Important Dates (set to "" for TBA)
+deadline_submission: ""
+deadline_notification: ""
+deadline_camera_ready: ""
+
+# Registration
+registration_url: "https://icml.cc/Conferences/2026"
+registration_note: "A workshop-only registration is sufficient."
+
+# ============================================================
+# END WORKSHOP INFO
+# ============================================================
 
 sass:
   style: compressed

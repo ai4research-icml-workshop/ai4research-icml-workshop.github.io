@@ -1,12 +1,12 @@
 <header class="hero">
   <div class="hero-inner">
-    <p class="hero-label">ICML 2026 Workshop</p>
-    <h1 class="hero-title">AI as a Tool for Mathematics, Computer Science, and Machine Learning</h1>
+    <p class="hero-label">{{ site.conference }} Workshop</p>
+    <h1 class="hero-title">{{ site.title }}</h1>
     <div class="hero-divider"></div>
-    <p class="hero-tagline">Helping researchers effectively integrate AI tools into their core research workflow at the AI–Math/CS/ML interface</p>
+    <p class="hero-tagline">{{ site.description | remove: "ICML 2026 Workshop — " }}</p>
     <div class="hero-meta">
-      <span>📍 Seoul, South Korea</span>
-      <span>📅 July 10–11, 2026</span>
+      <span>📍 {{ site.city }}</span>
+      <span>📅 {{ site.workshop_dates }}</span>
       <span>Contact: <a href="mailto:{{ site.contact_email }}" style="color: inherit; text-decoration: underline;">{{ site.contact_email }}</a></span>
       <span>Submit: <a href="{{ site.submission_url }}" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">OpenReview</a></span>
     </div>

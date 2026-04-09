@@ -19,7 +19,7 @@
         <h3>Submission Format</h3>
         <ul>
           <li>4-page paper (excluding references and supplementary materials)</li>
-          <li>Must follow <a href="https://icml.cc/Conferences/2026/CallForPapers" target="_blank" rel="noopener">ICML 2026 format</a></li>
+          <li>Must follow <a href="{{ site.formatting_url }}" target="_blank" rel="noopener">{{ site.conference }} format</a></li>
           <li>Indicate preferred presentation: computer demo or poster</li>
           <li>Submissions via <a href="{{ site.submission_url }}" target="_blank" rel="noopener">OpenReview</a></li>
         </ul>
@@ -36,17 +36,21 @@
       <div class="cfp-card">
         <h3>Important Dates</h3>
         <ul class="cfp-dates">
-          <li><strong>Submission deadline:</strong> <span class="cfp-tba">TBA</span></li>
-          <li><strong>Notification of acceptance:</strong> <span class="cfp-tba">TBA</span></li>
-          <li><strong>Camera-ready deadline:</strong> <span class="cfp-tba">TBA</span></li>
-          <li><strong>Workshop date:</strong> July 10–11, 2026</li>
+          <li><strong>Submission deadline:</strong> {% if site.deadline_submission != "" %}{{ site.deadline_submission }}{% else %}<span class="cfp-tba">TBA</span>{% endif %}</li>
+          <li><strong>Notification of acceptance:</strong> {% if site.deadline_notification != "" %}{{ site.deadline_notification }}{% else %}<span class="cfp-tba">TBA</span>{% endif %}</li>
+          <li><strong>Camera-ready deadline:</strong> {% if site.deadline_camera_ready != "" %}{{ site.deadline_camera_ready }}{% else %}<span class="cfp-tba">TBA</span>{% endif %}</li>
+          <li><strong>Workshop date:</strong> {{ site.workshop_dates }}</li>
         </ul>
         <p class="cfp-timezone">All deadlines are Anywhere on Earth (AoE)</p>
       </div>
     </div>
 
     <div class="cfp-action">
+      {% if site.submission_open %}
+      <a href="{{ site.submission_url }}" target="_blank" rel="noopener" class="cfp-submit-btn">Submit on OpenReview</a>
+      {% else %}
       <span class="cfp-submit-btn cfp-submit-btn--disabled">Submissions opening soon</span>
+      {% endif %}
     </div>
   </div>
 </section>

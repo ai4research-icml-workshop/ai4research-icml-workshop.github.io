@@ -6,18 +6,18 @@
     <div class="venue-grid">
       <div class="venue-card">
         <h3>Location</h3>
-        <p><strong>COEX Convention & Exhibition Center</strong><br>Seoul, South Korea</p>
-        <p>Part of <a href="https://icml.cc/Conferences/2026" target="_blank" rel="noopener">ICML 2026</a> (July 6–11, 2026)</p>
+        <p><strong>{{ site.venue }}</strong><br>{{ site.city }}</p>
+        <p>Part of <a href="{{ site.conference_url }}" target="_blank" rel="noopener">{{ site.conference }}</a> ({{ site.conference_dates }})</p>
       </div>
       <div class="venue-card">
         <h3>Workshop Dates</h3>
-        <p><strong>July 10–11, 2026</strong><br>(ICML workshop days)</p>
-        <p>Full-day, in-person workshop</p>
+        <p><strong>{{ site.workshop_dates }}</strong><br>({{ site.conference }} workshop days)</p>
+        <p>{{ site.workshop_format }}</p>
       </div>
       <div class="venue-card">
         <h3>Registration</h3>
-        <p>Workshop attendance requires <a href="https://icml.cc/Conferences/2026" target="_blank" rel="noopener">ICML 2026 registration</a>.</p>
-        <p>A workshop-only registration is sufficient. Please register through the main ICML conference website.</p>
+        <p>Workshop attendance requires <a href="{{ site.registration_url }}" target="_blank" rel="noopener">{{ site.conference }} registration</a>.</p>
+        <p>{{ site.registration_note }} Please register through the main conference website.</p>
       </div>
     </div>
   </div>
