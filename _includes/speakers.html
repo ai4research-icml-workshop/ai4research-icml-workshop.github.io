@@ -1,1 +1,27 @@
-<section id="speakers" aria-labelledby="speakers-title"></section>
+<section id="speakers" class="section" aria-labelledby="speakers-title">
+  <div class="section-inner">
+    <p class="section-label">Invited Speakers</p>
+    <h2 id="speakers-title" class="section-heading">Expert Perspectives</h2>
+    <div class="section-divider"></div>
+    <div class="speakers-grid">
+      {% for speaker in site.data.speakers %}
+      <div class="speaker-card">
+        <img
+          class="speaker-photo"
+          src="{{ speaker.photo | relative_url }}"
+          alt="Photo of {{ speaker.name }}"
+          loading="lazy"
+        >
+        <div class="speaker-name">{{ speaker.name }}</div>
+        <div class="speaker-affil">{{ speaker.affiliation }}</div>
+        {% if speaker.website != "" or speaker.scholar != "" %}
+        <div class="speaker-links">
+          {% if speaker.website != "" %}<a href="{{ speaker.website }}" target="_blank" rel="noopener">Website</a>{% endif %}
+          {% if speaker.scholar != "" %}<a href="{{ speaker.scholar }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
