@@ -3,6 +3,9 @@ description: "ICML 2026 Workshop — Helping researchers integrate AI into core 
 url: "https://ai4research-icml-workshop.github.io"
 baseurl: ""
 
+# Update this URL once the workshop OpenReview page is created
+submission_url: "https://openreview.net/"
+
 sass:
   style: compressed
 
