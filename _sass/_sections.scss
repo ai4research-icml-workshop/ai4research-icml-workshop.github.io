@@ -178,3 +178,67 @@
   font-size: 13px;
   color: $color-text-secondary;
 }
+
+// Call for Papers
+.cfp-summary {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.cfp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.cfp-card {
+  background: $color-bg;
+  border: 1px solid $color-border;
+  border-radius: 6px;
+  padding: 20px;
+
+  h3 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    font-family: $font-sans;
+  }
+
+  ul {
+    padding-left: 18px;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.7;
+  }
+}
+
+.cfp-tba {
+  font-size: 13px;
+  color: $color-text-secondary;
+  font-style: italic;
+}
+
+.cfp-action {
+  text-align: center;
+}
+
+.cfp-submit-btn {
+  display: inline-block;
+  background: $color-accent;
+  color: #fff;
+  padding: 10px 28px;
+  border-radius: 4px;
+  font-family: $font-sans;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background 0.2s;
+
+  &:hover {
+    background: darken($color-accent, 8%);
+    color: #fff;
+  }
+}
