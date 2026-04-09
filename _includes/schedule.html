@@ -1,1 +1,22 @@
-<section id="schedule" aria-labelledby="schedule-title"></section>
+<section id="schedule" class="section section-alt" aria-labelledby="schedule-title">
+  <div class="section-inner">
+    <p class="section-label">Schedule</p>
+    <h2 id="schedule-title" class="section-heading">Full-Day Program</h2>
+    <div class="section-divider"></div>
+    <div class="schedule-list">
+      {% for item in site.data.schedule %}
+      <div class="schedule-item schedule-item--{{ item.type }}">
+        <div class="schedule-time">{{ item.time }}</div>
+        <div class="schedule-desc">
+          {% if item.type == "talk" %}
+            {{ item.title }}: <span class="schedule-speaker">{{ item.speaker }}</span>
+            <div class="schedule-detail">{{ item.affiliation }}</div>
+          {% else %}
+            {{ item.title }}
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

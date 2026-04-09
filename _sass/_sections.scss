@@ -95,3 +95,48 @@
     }
   }
 }
+
+// Schedule
+.schedule-list {
+  max-width: 640px;
+}
+
+.schedule-item {
+  display: flex;
+  gap: 20px;
+  padding: 14px 0;
+  border-bottom: 1px solid $color-border;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.schedule-item--break {
+  opacity: 0.7;
+}
+
+.schedule-time {
+  font-size: 13px;
+  color: $color-text-secondary;
+  font-family: $font-sans;
+  min-width: 110px;
+  font-weight: 500;
+}
+
+.schedule-desc {
+  font-size: 14px;
+  color: #333;
+}
+
+.schedule-speaker {
+  color: $color-accent;
+  font-style: italic;
+}
+
+.schedule-detail {
+  font-size: 12px;
+  color: $color-text-secondary;
+  margin-top: 2px;
+  font-family: $font-sans;
+}
