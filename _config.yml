@@ -1,0 +1,14 @@
+title: "AI as a Tool for Mathematics, Computer Science, and Machine Learning"
+description: "ICML 2026 Workshop — Helping researchers integrate AI into core research workflows"
+url: "https://ai4research-icml-workshop.github.io"
+baseurl: ""
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - docs/
+  - vendor/
