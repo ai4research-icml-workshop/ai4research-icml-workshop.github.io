@@ -1,1 +1,29 @@
-<section id="organizers" aria-labelledby="organizers-title"></section>
+<section id="organizers" class="section" aria-labelledby="organizers-title">
+  <div class="section-inner">
+    <p class="section-label">Organizers</p>
+    <h2 id="organizers-title" class="section-heading">Workshop Committee</h2>
+    <div class="section-divider"></div>
+    <div class="organizers-grid">
+      {% for org in site.data.organizers %}
+      <div class="organizer-card">
+        <img
+          class="organizer-photo"
+          src="{{ org.photo | relative_url }}"
+          alt="Photo of {{ org.name }}"
+          loading="lazy"
+        >
+        <div class="organizer-info">
+          <div class="organizer-name">{{ org.name }}</div>
+          <div class="organizer-affil">{{ org.affiliation }}</div>
+          {% if org.website != "" or org.scholar != "" %}
+          <div class="organizer-links">
+            {% if org.website != "" %}<a href="{{ org.website }}" target="_blank" rel="noopener">Website</a>{% endif %}
+            {% if org.scholar != "" %}<a href="{{ org.scholar }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

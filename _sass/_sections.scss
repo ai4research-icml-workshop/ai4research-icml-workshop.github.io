@@ -242,3 +242,53 @@
     color: #fff;
   }
 }
+
+// Organizers
+.organizers-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.organizer-card {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.organizer-photo {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: $color-border;
+}
+
+.organizer-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  font-family: $font-sans;
+}
+
+.organizer-affil {
+  font-size: 12px;
+  color: $color-text-secondary;
+  font-family: $font-sans;
+}
+
+.organizer-links {
+  margin-top: 4px;
+  font-size: 11px;
+  font-family: $font-sans;
+
+  a {
+    color: $color-accent;
+    margin-right: 8px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
