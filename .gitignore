@@ -4,3 +4,7 @@ _site/
 .jekyll-metadata
 .superpowers/
 .DS_Store
+.bundle/
+vendor/
+_source_assets/
+docs/
