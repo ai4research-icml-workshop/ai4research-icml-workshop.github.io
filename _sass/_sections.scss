@@ -183,8 +183,39 @@
 .cfp-summary {
   font-size: 14px;
   color: #444;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   line-height: 1.7;
+}
+
+.cfp-topics {
+  margin-bottom: 28px;
+
+  h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: $font-sans;
+  }
+
+  ul {
+    padding-left: 18px;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.7;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+}
+
+.cfp-dates {
+  list-style: none;
+  padding-left: 0;
+  font-size: 13px;
+  color: #555;
+  line-height: 1.8;
 }
 
 .cfp-grid {
