@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fafaf8"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#c0392b"/>
+  <text x="600" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-style="italic" fill="#222">AI as a Tool for Mathematics,</text>
+  <text x="600" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-style="italic" fill="#222">Computer Science, and Machine Learning</text>
+  <rect x="570" y="290" width="60" height="3" fill="#c0392b"/>
+  <text x="600" y="350" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#767676">ICML 2026 Workshop</text>
+  <text x="600" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#767676">Seoul, South Korea · July 10–11, 2026</text>
+</svg>
