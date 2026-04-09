@@ -12,7 +12,7 @@
   font-size: 11px;
   letter-spacing: 2.4px;
   text-transform: uppercase;
-  color: $color-text-secondary;
+  color: $color-accent;
   margin-bottom: 10px;
   font-family: $font-sans;
 }
@@ -27,9 +27,9 @@
 }
 
 .hero-divider {
-  width: 56px;
-  height: 1px;
-  background: $color-text;
+  width: 40px;
+  height: 2px;
+  background: $color-accent;
   margin: 0 auto 14px;
 }
 

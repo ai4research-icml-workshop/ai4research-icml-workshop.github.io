@@ -58,7 +58,7 @@ img {
   font-size: 11px;
   letter-spacing: 2.4px;
   text-transform: uppercase;
-  color: $color-text-secondary;
+  color: $color-accent;
   font-family: $font-sans;
   font-weight: 600;
   margin-bottom: 6px;
@@ -73,10 +73,10 @@ img {
 }
 
 .section-divider {
-  width: 44px;
-  height: 1px;
-  background: $color-text;
-  margin-bottom: 22px;
+  width: 30px;
+  height: 2px;
+  background: $color-accent;
+  margin-bottom: 24px;
 }
 
 // Back to top button
