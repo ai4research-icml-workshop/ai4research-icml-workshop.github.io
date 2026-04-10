@@ -16,7 +16,7 @@
 }
 
 .nav-logo {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   color: $color-text;
   letter-spacing: 0.5px;
@@ -48,7 +48,7 @@
   align-items: center;
 
   a {
-    font-size: 12px;
+    font-size: 13px;
     font-family: $font-sans;
     color: $color-text-secondary;
     text-decoration: none;
@@ -66,9 +66,9 @@
 .nav-cta {
   background: $color-accent;
   color: #fff !important;
-  padding: 4px 12px !important;
+  padding: 5px 13px !important;
   border-radius: 2px;
-  font-size: 11px !important;
+  font-size: 12px !important;
   border-bottom: none !important;
 
   &:hover {

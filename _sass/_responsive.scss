@@ -98,6 +98,17 @@
     aspect-ratio: 1 / 1;
   }
 
+  .organizer-card {
+    flex-direction: column;
+  }
+
+  .organizer-photo {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
   .schedule-item {
     flex-direction: column;
     gap: 4px;

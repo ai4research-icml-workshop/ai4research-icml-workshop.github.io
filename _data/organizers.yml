@@ -1,6 +1,7 @@
 - name: Mikhail Belkin
   affiliation: "UC San Diego"
   photo: /assets/img/organizers/belkin.jpg
+  bio: "HDSI Endowed Chair Professor in Artificial Intelligence at UC San Diego. His research spans artificial intelligence, machine learning, and high-dimensional statistics."
   website: "http://misha.belkin-wang.org/"
   scholar: ""
 
@@ -8,6 +9,7 @@
   affiliation: "OpenAI"
   photo: /assets/img/organizers/bubeck.jpg
   photo_position: "center 15%"
+  bio: "Leader of the Science Team at OpenAI. His work includes large language models, convex optimization, online algorithms, and adversarial robustness."
   website: "http://sbubeck.com/"
   scholar: ""
 
@@ -15,12 +17,14 @@
   affiliation: "University of Pennsylvania"
   photo: /assets/img/organizers/dobriban.jpg
   photo_position: "center 20%"
+  bio: "Associate Professor of Statistics and Computer & Information Science at Penn. His research sits at the interface of statistics, machine learning, and AI."
   website: "https://statistics.wharton.upenn.edu/profile/dobriban/"
   scholar: ""
 
 - name: Dmitriy Drusvyatskiy
   affiliation: "UC San Diego"
   photo: /assets/img/organizers/drusvyatskiy.jpg
+  bio: "Professor at the Halicioglu Data Science Institute at UC San Diego. His research interests are in optimization, high-dimensional statistics, machine learning, and AI."
   website: "https://sites.google.com/view/dmitriy-drusvyatskiy"
   scholar: ""
 
@@ -28,11 +32,13 @@
   affiliation: "Stanford University"
   photo: /assets/img/organizers/vakil.jpg
   photo_position: "18% center"
+  bio: "Robert Grimmett Professor of Mathematics at Stanford University and President of the American Mathematical Society. He works in algebraic geometry."
   website: "https://math.stanford.edu/~vakil/"
   scholar: ""
 
 - name: Fanny Yang
   affiliation: "ETH Zürich"
   photo: /assets/img/organizers/yang.jpg
+  bio: "Assistant Professor of Computer Science at ETH Zurich. She works on high-dimensional and robust machine learning."
   website: "https://sml.inf.ethz.ch/groupsite/group/fannyy/"
   scholar: ""

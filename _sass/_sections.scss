@@ -35,7 +35,7 @@
 
 .news-date {
   font-family: $font-sans;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
   color: $color-text-secondary;
   min-width: 100px;
@@ -71,7 +71,7 @@
   padding: 20px;
 
   h3 {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     color: #333;
     margin-bottom: 8px;
@@ -79,9 +79,10 @@
   }
 
   p {
-    font-size: 14px;
+    font-size: 15px;
     color: $color-text-secondary;
     line-height: 1.7;
+    font-family: $font-sans;
   }
 }
 
@@ -119,14 +120,14 @@
 }
 
 .speaker-name {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   color: #333;
   font-family: $font-sans;
 }
 
 .speaker-affil {
-  font-size: 13px;
+  font-size: 14px;
   color: $color-text-secondary;
   font-family: $font-sans;
   margin-top: 2px;
@@ -142,7 +143,7 @@
 
 .speaker-links {
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 13px;
   font-family: $font-sans;
 
   a {
@@ -176,7 +177,7 @@
 }
 
 .schedule-time {
-  font-size: 13px;
+  font-size: 14px;
   color: $color-text-secondary;
   font-family: $font-sans;
   min-width: 110px;
@@ -184,8 +185,9 @@
 }
 
 .schedule-desc {
-  font-size: 14px;
+  font-size: 15px;
   color: #333;
+  font-family: $font-sans;
 }
 
 .schedule-speaker {
@@ -194,7 +196,7 @@
 }
 
 .schedule-timezone {
-  font-size: 12px;
+  font-size: 13px;
   color: $color-text-secondary;
   font-family: $font-sans;
   font-style: italic;
@@ -202,7 +204,7 @@
 }
 
 .schedule-detail {
-  font-size: 12px;
+  font-size: 13px;
   color: $color-text-secondary;
   margin-top: 2px;
   font-family: $font-sans;
@@ -308,10 +310,11 @@
 }
 
 .cfp-timezone {
-  font-size: 11px;
+  font-size: 12px;
   color: $color-text-secondary;
   font-style: italic;
   margin-top: 8px;
+  font-family: $font-sans;
 }
 
 .cfp-card {
@@ -321,7 +324,7 @@
   padding: 20px;
 
   h3 {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     color: #333;
     margin-bottom: 8px;
@@ -338,9 +341,10 @@
 }
 
 .cfp-tba {
-  font-size: 14px;
+  font-size: 15px;
   color: $color-text-secondary;
   font-style: italic;
+  font-family: $font-sans;
 }
 
 .cfp-action {
@@ -387,7 +391,7 @@
   padding: 20px;
 
   h3 {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     color: #333;
     margin-bottom: 8px;
@@ -395,10 +399,11 @@
   }
 
   p {
-    font-size: 14px;
+    font-size: 15px;
     color: #555;
     line-height: 1.6;
     margin-bottom: 6px;
+    font-family: $font-sans;
 
     &:last-child {
       margin-bottom: 0;
@@ -417,41 +422,60 @@
 // Organizers
 .organizers-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
 }
 
 .organizer-card {
   display: flex;
-  gap: 14px;
-  align-items: center;
+  gap: 18px;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid $color-border;
+  border-radius: 4px;
+  background: $color-bg;
+  height: 100%;
 }
 
 .organizer-photo {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
+  width: 112px;
+  height: 112px;
+  border-radius: 6px;
   object-fit: cover;
   flex-shrink: 0;
   background: $color-border;
 }
 
+.organizer-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
 .organizer-name {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   color: #333;
   font-family: $font-sans;
 }
 
 .organizer-affil {
-  font-size: 12px;
+  font-size: 14px;
+  color: $color-text-secondary;
+  font-family: $font-sans;
+}
+
+.organizer-bio {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.7;
   color: $color-text-secondary;
   font-family: $font-sans;
 }
 
 .organizer-links {
-  margin-top: 4px;
-  font-size: 11px;
+  margin-top: 10px;
+  font-size: 12px;
   font-family: $font-sans;
 
   a {
@@ -469,7 +493,7 @@
   text-align: center;
   padding: 32px $section-padding-h;
   border-top: 1px solid $color-border;
-  font-size: 12px;
+  font-size: 13px;
   color: $color-text-secondary;
   font-family: $font-sans;
 
@@ -488,5 +512,5 @@
 
 .footer-contact,
 .footer-icml {
-  font-size: 11px;
+  font-size: 12px;
 }
