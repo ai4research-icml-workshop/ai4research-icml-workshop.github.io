@@ -29,8 +29,8 @@ submission_open: false                          # Set to true when submissions o
 formatting_url: "https://icml.cc/Conferences/2026/CallForPapers"
 
 # Important Dates (set to "" for TBA)
-deadline_submission: ""
-deadline_notification: ""
+deadline_submission: "May 11, 2026"
+deadline_notification: "May 31, 2026"
 deadline_camera_ready: ""
 
 # Registration

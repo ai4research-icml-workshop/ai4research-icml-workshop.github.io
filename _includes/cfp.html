@@ -38,7 +38,9 @@
         <ul class="cfp-dates">
           <li><strong>Submission deadline:</strong> {% if site.deadline_submission != "" %}{{ site.deadline_submission }}{% else %}<span class="cfp-tba">TBA</span>{% endif %}</li>
           <li><strong>Notification of acceptance:</strong> {% if site.deadline_notification != "" %}{{ site.deadline_notification }}{% else %}<span class="cfp-tba">TBA</span>{% endif %}</li>
-          <li><strong>Camera-ready deadline:</strong> {% if site.deadline_camera_ready != "" %}{{ site.deadline_camera_ready }}{% else %}<span class="cfp-tba">TBA</span>{% endif %}</li>
+          {% if site.deadline_camera_ready != "" %}
+          <li><strong>Camera-ready deadline:</strong> {{ site.deadline_camera_ready }}</li>
+          {% endif %}
           <li><strong>Workshop date:</strong> {{ site.workshop_dates }}</li>
         </ul>
         <p class="cfp-timezone">All deadlines are Anywhere on Earth (AoE)</p>
