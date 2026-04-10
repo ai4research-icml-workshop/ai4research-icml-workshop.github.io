@@ -1,5 +1,10 @@
-- date: "April 2026"
+- date: "April 10, 2026"
+  text: "Call for volunteers is now open."
+  url: "https://example.com/volunteer-signup"
+  link_text: "Volunteer signup page"
+
+- date: "April 9, 2026"
   text: "Workshop website is live!"
 
-- date: "March 2026"
+- date: "April 6, 2026"
   text: "Workshop accepted at ICML 2026."

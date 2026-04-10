@@ -46,16 +46,45 @@
   color: #444;
   font-size: 15px;
   line-height: 1.7;
+
+  a {
+    color: $color-accent;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 // About
-.about-summary {
+.about-summary,
+.volunteers-summary {
   font-size: 15px;
   color: #444;
   margin-bottom: 24px;
   line-height: 1.7;
   font-family: $font-sans;
   max-width: 68ch;
+}
+
+.volunteers-callout {
+  background: $color-bg-alt;
+  border-left: 2px solid $color-accent;
+  padding: 16px 20px;
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: $font-serif;
+  color: $color-text;
+  max-width: 64ch;
+}
+
+.volunteers-summary a {
+  color: $color-accent;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .topics {
