@@ -6,9 +6,10 @@
     <p class="volunteers-callout">Call for volunteers: our workshop aims to serve the needs of the community, and be community-driven. If you are interested in volunteering, please contact us. We expect that we will benefit from help in reviewing papers, setting up and managing the challenge, etc.</p>
     <p class="volunteers-summary">Interested in volunteering? <a href="https://docs.google.com/forms/d/e/1FAIpQLSe66Q-8qJ_pyt0q1O5Po8zJYkksVUVymtFzkxd6aKFYW43oTA/viewform?usp=publish-editor" target="_blank" rel="noopener">Sign up here</a>.</p>
 
-    {% if site.data.volunteers and site.data.volunteers.size > 0 %}
+    {% assign sorted_volunteers = site.data.volunteers | sort: "sort_name" %}
+    {% if sorted_volunteers and sorted_volunteers.size > 0 %}
     <div class="volunteers-grid">
-      {% for volunteer in site.data.volunteers %}
+      {% for volunteer in sorted_volunteers %}
       <div class="volunteer-card">
         <img
           class="volunteer-photo"

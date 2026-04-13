@@ -1,4 +1,5 @@
 - name: Federico Di Gennaro
+  sort_name: "Di Gennaro, Federico"
   affiliation: "ETH Zürich"
   photo: /assets/img/volunteers/federico-di-gennaro.jpg
   bio: "Federico Di Gennaro is a PhD student at ETH Zürich, advised by Prof. Fanny Yang. His research interests include statistical learning and trustworthy ML."
@@ -6,13 +7,23 @@
   scholar: ""
 
 - name: Qingsong Wang
+  sort_name: "Wang, Qingsong"
   affiliation: "UC San Diego"
   photo: /assets/img/volunteers/qingsong-wang.jpg
   bio: "Qingsong Wang is a postdoctoral researcher at UC San Diego, working with Prof. Mikhail Belkin and Prof. Yusu Wang. His research interests include diffusion and flow-matching generative models, data geometry, and representation learning."
   website: "https://www.qingsong-wang.org/"
   scholar: ""
 
+- name: Sunay Joshi
+  sort_name: "Joshi, Sunay"
+  affiliation: "University of Pennsylvania"
+  photo: /assets/img/volunteers/sunay-joshi.jpg
+  bio: "Sunay Joshi is a PhD student at the University of Pennsylvania, advised by Prof. Edgar Dobriban and Prof. Hamed Hassani. His research interests include conformal prediction and uncertainty quantification for AI."
+  website: ""
+  scholar: ""
+
 - name: Tao Wang
+  sort_name: "Wang, Tao"
   affiliation: "University of Pennsylvania"
   photo: /assets/img/volunteers/tao-wang.jpg
   bio: "Tao Wang is a PhD student in Statistics and Data Science at the University of Pennsylvania, advised by Prof. Edgar Dobriban. His research interests include uncertainty quantification, optimal transport, and LLM post-training."
