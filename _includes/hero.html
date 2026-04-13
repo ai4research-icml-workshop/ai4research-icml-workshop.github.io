@@ -1,14 +1,18 @@
 <header class="hero">
-  <div class="hero-inner">
-    <p class="hero-label">{{ site.conference }} Workshop</p>
-    <h1 class="hero-title">{{ site.title }}</h1>
-    <div class="hero-divider"></div>
-    <p class="hero-tagline">{{ site.description | remove: "ICML 2026 Workshop — " }}</p>
-    <div class="hero-meta">
-      <span>📍 {{ site.city }}</span>
-      <span>📅 {{ site.workshop_dates }}</span>
-      <span>Contact: <a href="mailto:{{ site.contact_email }}" style="color: inherit; text-decoration: underline;">{{ site.contact_email }}</a></span>
-      <span>Submit: <a href="{{ site.submission_url }}" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">OpenReview</a></span>
+  <div class="hero-canvas">
+    <div class="hero-overlay hero-overlay--top">
+      <p class="hero-label">{{ site.conference }} Workshop</p>
+      <h1 class="hero-title">{{ site.title }}</h1>
+    </div>
+    <div class="hero-overlay hero-overlay--bottom">
+      <div class="hero-divider"></div>
+      <p class="hero-tagline">{{ site.description | remove: "ICML 2026 Workshop — " }}</p>
+      <div class="hero-meta">
+        <span>📍 {{ site.city }}</span>
+        <span>📅 {{ site.workshop_dates }}</span>
+        <span>Contact: <a href="mailto:{{ site.contact_email }}" style="color: inherit; text-decoration: underline;">{{ site.contact_email }}</a></span>
+        <span>Submit: <a href="{{ site.submission_url }}" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">OpenReview</a></span>
+      </div>
     </div>
   </div>
 </header>
