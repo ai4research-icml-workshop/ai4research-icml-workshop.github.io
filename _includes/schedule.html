@@ -17,7 +17,9 @@
               {% endif %}
             {% endfor %}
             {{ item.title }}: {% if speaker_data and speaker_data.website != "" %}<a href="{{ speaker_data.website }}" target="_blank" rel="noopener" class="schedule-speaker">{{ item.speaker }}</a>{% else %}<span class="schedule-speaker">{{ item.speaker }}</span>{% endif %}
+            {% if item.affiliation and item.affiliation != "" %}
             <div class="schedule-detail">{{ item.affiliation }}</div>
+            {% endif %}
           {% else %}
             {{ item.title }}
           {% endif %}

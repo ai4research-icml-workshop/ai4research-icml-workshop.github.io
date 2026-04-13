@@ -47,17 +47,6 @@
   website: "https://www.rachelward.site/"
   scholar: ""
 
-- name: Tracy Ke
-  affiliation: "Harvard University"
-  photo: /assets/img/speakers/ke.jpg
-  bio: >-
-    Zheng (Tracy) Ke is an Associate Professor in Statistics at Harvard
-    University. Her research interests include network data analysis, text
-    analysis and natural language processing, high-dimensional statistics,
-    machine learning, and bioinformatics and statistical genetics.
-  website: "https://www.tracyke.net/"
-  scholar: ""
-
 - name: Mehtaab Sawhney
   affiliation: "Columbia University / OpenAI"
   photo: /assets/img/speakers/sawhney.jpg
