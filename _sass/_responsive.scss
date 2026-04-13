@@ -45,6 +45,10 @@
     grid-template-columns: 1fr;
   }
 
+  .volunteers-grid {
+    grid-template-columns: 1fr;
+  }
+
   .cfp-grid,
   .cfp-grid--three {
     grid-template-columns: 1fr;
@@ -91,7 +95,18 @@
     flex-direction: column;
   }
 
+  .volunteer-card {
+    flex-direction: column;
+  }
+
   .speaker-photo {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  .volunteer-photo {
     width: 100%;
     max-width: 220px;
     height: auto;

@@ -5,5 +5,32 @@
     <div class="section-divider"></div>
     <p class="volunteers-callout">Call for volunteers: our workshop aims to serve the needs of the community, and be community-driven. If you are interested in volunteering, please contact us. We expect that we will benefit from help in reviewing papers, setting up and managing the challenge, etc.</p>
     <p class="volunteers-summary">Interested in volunteering? <a href="https://docs.google.com/forms/d/e/1FAIpQLSe66Q-8qJ_pyt0q1O5Po8zJYkksVUVymtFzkxd6aKFYW43oTA/viewform?usp=publish-editor" target="_blank" rel="noopener">Sign up here</a>.</p>
+
+    {% if site.data.volunteers and site.data.volunteers.size > 0 %}
+    <div class="volunteers-grid">
+      {% for volunteer in site.data.volunteers %}
+      <div class="volunteer-card">
+        <img
+          class="volunteer-photo"
+          src="{{ volunteer.photo | relative_url }}"
+          alt="Photo of {{ volunteer.name }}"
+          loading="lazy"
+          {% if volunteer.photo_position %}style="object-position: {{ volunteer.photo_position }}"{% endif %}
+        >
+        <div class="volunteer-content">
+          <div class="volunteer-name">{{ volunteer.name }}</div>
+          <div class="volunteer-affil">{{ volunteer.affiliation }}</div>
+          <p class="volunteer-bio">{{ volunteer.bio }}</p>
+          {% if volunteer.website != "" or volunteer.scholar != "" %}
+          <div class="volunteer-links">
+            {% if volunteer.website != "" %}<a href="{{ volunteer.website }}" target="_blank" rel="noopener">Website</a>{% endif %}
+            {% if volunteer.scholar != "" %}<a href="{{ volunteer.scholar }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 </section>

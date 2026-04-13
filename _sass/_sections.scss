@@ -87,6 +87,75 @@
   }
 }
 
+.volunteers-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.volunteer-card {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid $color-border;
+  border-radius: 4px;
+  background: $color-bg;
+  height: 100%;
+}
+
+.volunteer-photo {
+  width: 112px;
+  height: 112px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: $color-border;
+}
+
+.volunteer-content {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.volunteer-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  font-family: $font-sans;
+}
+
+.volunteer-affil {
+  font-size: 14px;
+  color: $color-text-secondary;
+  font-family: $font-sans;
+  margin-top: 2px;
+}
+
+.volunteer-bio {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: $color-text-secondary;
+  font-family: $font-sans;
+}
+
+.volunteer-links {
+  margin-top: 10px;
+  font-size: 13px;
+  font-family: $font-sans;
+
+  a {
+    color: $color-accent;
+    margin-right: 10px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .topics {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
