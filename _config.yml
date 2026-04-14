@@ -24,8 +24,8 @@ city: "Seoul, South Korea"
 
 # Contact & Submission
 contact_email: "ai4research-icml@googlegroups.com"
-submission_url: "https://openreview.net/"      # Update when workshop OpenReview page is created
-submission_open: false                          # Set to true when submissions open
+submission_url: "https://openreview.net/group?id=ICML.cc/2026/Workshop/AI4Research"
+submission_open: true
 formatting_url: "https://icml.cc/Conferences/2026/CallForPapers"
 
 # Important Dates (set to "" for TBA)
