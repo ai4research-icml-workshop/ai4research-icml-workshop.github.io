@@ -5,5 +5,5 @@
   <text x="600" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-style="italic" fill="#222">Computer Science, and Machine Learning</text>
   <rect x="570" y="290" width="60" height="3" fill="#c0392b"/>
   <text x="600" y="350" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#767676">ICML 2026 Workshop</text>
-  <text x="600" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#767676">Seoul, South Korea · July 10 or 11, 2026</text>
+  <text x="600" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#767676">Seoul, South Korea · July 10th, 2026</text>
 </svg>
