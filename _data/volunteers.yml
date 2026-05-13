@@ -6,6 +6,14 @@
   website: "https://federicodigennaro.github.io/"
   scholar: ""
 
+- name: Erik Wang
+  sort_name: "Wang, Erik"
+  affiliation: "Stanford University"
+  photo: /assets/img/volunteers/erik-wang.jpg
+  bio: "Erik Wang is a PhD student at Stanford University, working with Prof. Tengyu Ma. His research interests include language model reasoning, self-improvement, and scientific discovery."
+  website: ""
+  scholar: ""
+
 - name: Qingsong Wang
   sort_name: "Wang, Qingsong"
   affiliation: "UC San Diego"
