@@ -1,0 +1,30 @@
+<section id="debaters" class="section" aria-labelledby="debaters-title">
+  <div class="section-inner">
+    <p class="section-label">Debaters</p>
+    <h2 id="debaters-title" class="section-heading">Confirmed Debaters</h2>
+    <div class="section-divider"></div>
+    <div class="speakers-grid">
+      {% for debater in site.data.debaters %}
+      <div class="speaker-card">
+        <img
+          class="speaker-photo"
+          src="{{ debater.photo | relative_url }}"
+          alt="Photo of {{ debater.name }}"
+          loading="lazy"
+        >
+        <div class="speaker-content">
+          <div class="speaker-name">{{ debater.name }}</div>
+          <div class="speaker-affil">{{ debater.affiliation }}</div>
+          <p class="speaker-bio">{{ debater.bio }}</p>
+          {% if debater.website != "" or debater.scholar != "" %}
+          <div class="speaker-links">
+            {% if debater.website != "" %}<a href="{{ debater.website }}" target="_blank" rel="noopener">Website</a>{% endif %}
+            {% if debater.scholar != "" %}<a href="{{ debater.scholar }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

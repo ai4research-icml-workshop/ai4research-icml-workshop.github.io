@@ -3,6 +3,9 @@
     <p class="section-label">Call for Papers</p>
     <h2 id="cfp-title" class="section-heading">Contribute Your Work</h2>
     <div class="section-divider"></div>
+    {% unless site.submission_open == true %}
+    <p class="cfp-summary"><strong>Submissions are now closed.</strong></p>
+    {% endunless %}
     <p class="cfp-summary">We welcome submissions that highlight <strong>workflows using AI</strong> for machine learning, math, and computer science research more generally. Your contribution should illustrate—in an accessible way for a non-expert—how a simple workflow has proven to be useful in solving a cognitive research task (e.g., time-saving, energy-saving, result-strengthening, etc.).</p>
 
     <p class="cfp-summary">The <strong>workflow should be reproducible by ML researchers</strong> within a few hours and with academic-level financial resources. Therefore, the workflow should either involve simple prompting-based strategies, or more sophisticated strategies where the submitters provide a package/agent/repository that can be readily integrated into a chat interface or an API call. All accepted submissions <strong>will be made publicly accessible</strong>, creating a shared repository of AI-assisted research workflows.</p>
@@ -57,7 +60,11 @@
           <li>Main paper: up to 4 pages, excluding references; supplementary or appendix material may be included after the references in the same submitted PDF (e.g., detailed walkthroughs, screenshots, and conversation transcripts).</li>
           <li>Must follow <a href="{{ site.formatting_url }}" target="_blank" rel="noopener">{{ site.conference }} format</a></li>
           <li>Indicate preferred presentation: computer demo or poster</li>
+          {% if site.submission_open == true %}
           <li>Submissions via <a href="{{ site.submission_url }}" target="_blank" rel="noopener">OpenReview</a></li>
+          {% else %}
+          <li>Submission portal closed</li>
+          {% endif %}
         </ul>
       </div>
       <div class="cfp-card">
@@ -84,10 +91,10 @@
     </div>
 
     <div class="cfp-action">
-      {% if site.submission_open %}
+      {% if site.submission_open == true %}
       <a href="{{ site.submission_url }}" target="_blank" rel="noopener" class="cfp-submit-btn">Submit on OpenReview</a>
       {% else %}
-      <span class="cfp-submit-btn cfp-submit-btn--disabled">Submissions opening soon</span>
+      <span class="cfp-submit-btn cfp-submit-btn--disabled">Submissions closed</span>
       {% endif %}
     </div>
   </div>

@@ -35,16 +35,28 @@
   website: "https://damek.github.io/"
   scholar: ""
 
-- name: Rachel Ward
-  affiliation: "UT Austin"
-  photo: /assets/img/speakers/ward.jpg
+- name: Diyi Yang
+  affiliation: "Stanford University"
+  photo: /assets/img/speakers/yang.jpg
   bio: >-
-    Rachel Ward is the W. A. "Tex" Moncrief Distinguished Professor in
-    Computational Engineering and Sciences - Data Science and professor of
-    mathematics at UT Austin. She is recognized for contributions to sparse
-    approximation, stochastic optimization, and numerical linear algebra. Her
-    research lies broadly in the mathematics of data.
-  website: "https://www.rachelward.site/"
+    Diyi Yang is an Assistant Professor in the Computer Science Department at
+    Stanford University, affiliated with the Stanford NLP Group, Stanford HCI
+    Group, SAIL, and Stanford HAI. Her research focuses on socially aware NLP,
+    large language models, and human-AI interaction, with an emphasis on
+    human-centered AI systems.
+  website: "https://cs.stanford.edu/~diyiy/"
+  scholar: ""
+
+- name: Niao He
+  affiliation: "ETH Zurich"
+  photo: /assets/img/speakers/he.jpg
+  bio: >-
+    Niao He is an Associate Professor in the Department of Computer Science at
+    ETH Zurich and leads the Optimization & Decision Intelligence Group. Her
+    research lies at the interface of optimization and machine learning, with a
+    focus on algorithmic and theoretical foundations for principled, scalable,
+    and trustworthy decision intelligence.
+  website: "https://odi.inf.ethz.ch/niaohe"
   scholar: ""
 
 - name: Mehtaab Sawhney

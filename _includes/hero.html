@@ -11,7 +11,9 @@
         <span>📍 {{ site.city }}</span>
         <span>📅 {{ site.workshop_dates }}</span>
         <span>Contact: <a href="mailto:{{ site.contact_email }}" style="color: inherit; text-decoration: underline;">{{ site.contact_email }}</a></span>
+        {% if site.submission_open == true %}
         <span>Submit: <a href="{{ site.submission_url }}" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">OpenReview</a></span>
+        {% endif %}
       </div>
     </div>
   </div>

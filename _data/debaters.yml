@@ -1,0 +1,24 @@
+- name: Niloofar Mireshghallah
+  affiliation: "humans&"
+  photo: /assets/img/debaters/mireshghallah.jpg
+  bio: >-
+    Niloofar Mireshghallah is a Member of Technical Staff at humans&.
+    Beginning Fall 2026, she will join Carnegie Mellon University's Engineering
+    & Public Policy Department and Language Technologies Institute as an
+    Assistant Professor. Her research spans privacy, natural language
+    processing, AI for science, LLM reasoning, and the societal implications of
+    machine learning.
+  website: "https://mireshghallah.github.io/"
+  scholar: ""
+
+- name: Ludwig Schmidt
+  affiliation: "Stanford University"
+  photo: /assets/img/debaters/schmidt.jpg
+  bio: >-
+    Ludwig Schmidt is an Assistant Professor in Stanford University's Computer
+    Science Department and Stanford Data Science. His research focuses on the
+    foundations of machine learning, often with an emphasis on datasets,
+    multimodality, reliable generalization, and language models. He is also a
+    member of technical staff at Anthropic and LAION.
+  website: "https://people.csail.mit.edu/ludwigs/"
+  scholar: "https://scholar.google.com/citations?user=SWMKy70AAAAJ&hl=en"

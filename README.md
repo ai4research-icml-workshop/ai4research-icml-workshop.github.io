@@ -14,6 +14,7 @@ Open http://localhost:4000
 ## Updating Content
 
 - **Speakers**: Edit `_data/speakers.yml`
+- **Debaters**: Edit `_data/debaters.yml`
 - **Organizers**: Edit `_data/organizers.yml`
 - **Schedule**: Edit `_data/schedule.yml`
 - **Other sections**: Edit the corresponding file in `_includes/`
