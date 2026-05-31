@@ -1,63 +1,72 @@
-- time: "08:50–09:00"
-  title: "Introduction to the workshop"
+- time: "08:30–08:40"
+  title: "Opening remarks"
   type: event
 
-- time: "09:00–09:40"
+- time: "08:40–09:15"
   title: "Talk"
   speaker: "Sergei Gukov"
   affiliation: "Caltech · American Institute of Mathematics"
   type: talk
 
-- time: "09:40–10:20"
+- time: "09:15–09:50"
   title: "Talk"
   speaker: "Remy Degenne"
   affiliation: "University of Lille · Inria"
   type: talk
 
-- time: "10:20–10:35"
+- time: "09:50–10:10"
   title: "Coffee break"
   type: break
 
-- time: "10:35–11:15"
+- time: "10:10–10:45"
   title: "Talk"
   speaker: "Damek Davis"
   affiliation: "University of Pennsylvania"
   type: talk
 
-- time: "11:15–12:00"
-  title: "Demo and poster session of accepted submissions"
-  type: event
-
-- time: "12:00–13:00"
-  title: "Lunch"
-  type: break
-
-- time: "13:00–13:40"
-  title: "Talk"
-  speaker: "Diyi Yang"
-  affiliation: "Stanford University"
-  type: talk
-
-- time: "13:40–14:20"
+- time: "10:45–11:20"
   title: "Talk"
   speaker: "Niao He"
   affiliation: "ETH Zurich"
   type: talk
 
-- time: "14:20–15:00"
-  title: "Demo and poster session of accepted submissions"
+- time: "11:30–12:30"
+  title: "Lunch"
+  type: break
+
+- time: "12:15–13:15"
+  title: "Poster session"
   type: event
 
-- time: "15:00–15:15"
+- time: "13:15–13:50"
+  title: "Talk"
+  speaker: "Diyi Yang"
+  affiliation: "Stanford University"
+  type: talk
+
+- time: "13:50–14:20"
+  title: "Oral presentations and Q&A"
+  detail: "4 orals, 5 minutes each, followed by 10 minutes of Q&A"
+  type: event
+
+- time: "14:20–14:40"
   title: "Coffee break"
   type: break
 
-- time: "15:15–15:55"
+- time: "14:40–15:15"
   title: "Talk"
   speaker: "Mehtaab Sawhney"
   affiliation: "Columbia University · OpenAI"
   type: talk
 
-- time: "16:00–17:00"
-  title: "Structured debate and panel"
+- time: "15:15–15:30"
+  title: "Short break / buffer"
+  type: break
+
+- time: "15:30–16:30"
+  title: "Anti-Debate: Niloofar Mireshghallah vs. Ludwig Schmidt"
+  type: event
+
+- time: "16:30–17:00"
+  title: "Post-debate perspectives from other participants"
   type: event

@@ -22,6 +22,9 @@
             {% endif %}
           {% else %}
             {{ item.title }}
+            {% if item.detail and item.detail != "" %}
+            <div class="schedule-detail">{{ item.detail }}</div>
+            {% endif %}
           {% endif %}
         </div>
       </div>
