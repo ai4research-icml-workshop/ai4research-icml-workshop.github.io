@@ -20,6 +20,20 @@
             {% if item.affiliation and item.affiliation != "" %}
             <div class="schedule-detail">{{ item.affiliation }}</div>
             {% endif %}
+          {% elsif item.debaters %}
+            {{ item.title }}:
+            {% for debater_name in item.debaters %}
+              {% assign debater_data = nil %}
+              {% for d in site.data.debaters %}
+                {% if d.name == debater_name %}
+                  {% assign debater_data = d %}
+                {% endif %}
+              {% endfor %}
+              {% if debater_data and debater_data.website != "" %}<a href="{{ debater_data.website }}" target="_blank" rel="noopener" class="schedule-speaker">{{ debater_name }}</a>{% else %}<span class="schedule-speaker">{{ debater_name }}</span>{% endif %}{% unless forloop.last %} vs. {% endunless %}
+            {% endfor %}
+            {% if item.detail and item.detail != "" %}
+            <div class="schedule-detail">{{ item.detail }}</div>
+            {% endif %}
           {% else %}
             {{ item.title }}
             {% if item.detail and item.detail != "" %}

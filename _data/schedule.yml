@@ -64,7 +64,10 @@
   type: break
 
 - time: "15:30–16:30"
-  title: "Structured Debate: Niloofar Mireshghallah vs. Ludwig Schmidt"
+  title: "Structured Debate"
+  debaters:
+    - "Niloofar Mireshghallah"
+    - "Ludwig Schmidt"
   type: event
 
 - time: "16:30–17:00"
