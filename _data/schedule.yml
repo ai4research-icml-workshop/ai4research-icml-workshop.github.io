@@ -30,12 +30,12 @@
   affiliation: "ETH Zurich"
   type: talk
 
-- time: "11:30–12:30"
-  title: "Lunch"
+- time: "11:20–12:00"
+  title: "Get lunch"
   type: break
 
-- time: "12:15–13:15"
-  title: "Poster session"
+- time: "12:00–13:15"
+  title: "Poster session (bring your own lunch)"
   type: event
 
 - time: "13:15–13:50"
@@ -44,22 +44,22 @@
   affiliation: "Stanford University"
   type: talk
 
-- time: "13:50–14:20"
+- time: "13:50–14:25"
   title: "Oral presentations and Q&A"
-  detail: "4 orals, 5 minutes each, followed by 10 minutes of Q&A"
+  detail: "4 orals, 7 minutes each, followed by 7 minutes of Q&A"
   type: event
 
-- time: "14:20–14:40"
-  title: "Coffee break"
-  type: break
-
-- time: "14:40–15:15"
+- time: "14:25–15:00"
   title: "Talk"
   speaker: "Mehtaab Sawhney"
   affiliation: "Columbia University / OpenAI"
   type: talk
 
-- time: "15:15–15:30"
+- time: "15:00–15:20"
+  title: "Coffee break"
+  type: break
+
+- time: "15:20–15:30"
   title: "Short break / buffer"
   type: break
 
