@@ -34,9 +34,13 @@
   title: "Get lunch"
   type: break
 
-- time: "11:50–13:15"
+- time: "11:50–13:00"
   title: "Poster session (bring your own lunch)"
   type: event
+
+- time: "13:00–13:15"
+  title: "Break"
+  type: break
 
 - time: "13:15–13:50"
   title: "Talk"
@@ -55,12 +59,8 @@
   affiliation: "Columbia University / OpenAI"
   type: talk
 
-- time: "15:00–15:20"
+- time: "15:00–15:30"
   title: "Coffee break"
-  type: break
-
-- time: "15:20–15:30"
-  title: "Short break / buffer"
   type: break
 
 - time: "15:30–16:30"

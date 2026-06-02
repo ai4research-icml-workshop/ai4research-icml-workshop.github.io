@@ -1,19 +1,10 @@
 <header class="hero">
   <div class="hero-canvas">
-    <div class="hero-banner-frame">
-      <img
-        class="hero-banner"
-        src="{{ '/assets/img/hero/who-will-hire-whom.png' | relative_url }}"
-        alt="Who will hire whom? Banner showing AI and human researchers facing each other across research tools and contracts."
-        width="1536"
-        height="1024"
-      >
-    </div>
-    <div class="hero-heading">
+    <div class="hero-overlay hero-overlay--top">
       <p class="hero-label">{{ site.conference }} Workshop</p>
       <h1 class="hero-title">{{ site.title }}</h1>
     </div>
-    <div class="hero-details">
+    <div class="hero-overlay hero-overlay--bottom">
       <div class="hero-divider"></div>
       <p class="hero-tagline">{{ site.description | remove: "ICML 2026 Workshop — " }}</p>
       <div class="hero-meta">
