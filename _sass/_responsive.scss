@@ -80,7 +80,9 @@
 @media (max-width: $breakpoint-mobile) {
   .hero {
     padding: 24px 18px 28px;
-    background: #fdf8f3;
+    background:
+      radial-gradient(ellipse at top center, rgba(244, 224, 204, 0.58) 0%, rgba(253, 248, 243, 0.48) 52%, rgba(255, 255, 255, 0) 80%),
+      linear-gradient(180deg, #fbf1e8 0%, #fdf8f3 72%, #fff 100%);
   }
 
   .hero-canvas {
@@ -98,8 +100,9 @@
   }
 
   .hero-title {
-    font-size: 24px;
-    line-height: 1.22;
+    font-size: 21px;
+    line-height: 1.24;
+    max-width: 100%;
   }
 
   .hero-divider {
