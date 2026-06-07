@@ -8,7 +8,7 @@
       <div class="hero-divider"></div>
       <p class="hero-tagline">{{ site.description | remove: "ICML 2026 Workshop — " }}</p>
       <div class="hero-meta">
-        <span>📍 {{ site.city }}</span>
+        <span>📍 {{ site.venue_room }} · {{ site.city }}</span>
         <span>📅 {{ site.workshop_dates }}</span>
         <span>Contact: <a href="mailto:{{ site.contact_email }}" style="color: inherit; text-decoration: underline;">{{ site.contact_email }}</a></span>
         {% if site.submission_open == true %}

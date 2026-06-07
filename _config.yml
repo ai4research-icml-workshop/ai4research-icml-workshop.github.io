@@ -19,6 +19,7 @@ workshop_format: "Full-day, in-person"
 timezone: "KST (UTC+9)"
 
 # Venue
+venue_room: "AUDITORIUM"
 venue: "COEX Convention & Exhibition Center"
 city: "Seoul, South Korea"
 
