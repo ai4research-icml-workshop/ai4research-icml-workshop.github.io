@@ -29,5 +29,36 @@
       </div>
       {% endfor %}
     </div>
+
+    {% if site.data.coordinators and site.data.coordinators.size > 0 %}
+    <h3 class="section-subheading">Coordinator</h3>
+    <div class="organizers-grid organizers-grid--coordinator">
+      {% for coordinator in site.data.coordinators %}
+      <div class="organizer-card">
+        <img
+          class="organizer-photo"
+          src="{{ coordinator.photo | relative_url }}"
+          alt="Photo of {{ coordinator.name }}"
+          loading="lazy"
+          {% if coordinator.photo_position %}style="object-position: {{ coordinator.photo_position }}"{% endif %}
+        >
+        <div class="organizer-info">
+          <div class="organizer-name">{{ coordinator.name }}</div>
+          <div class="organizer-role">{{ coordinator.role }}</div>
+          <div class="organizer-affil">{{ coordinator.affiliation }}</div>
+          {% if coordinator.bio != "" %}
+          <p class="organizer-bio">{{ coordinator.bio }}</p>
+          {% endif %}
+          {% if coordinator.website != "" or coordinator.scholar != "" %}
+          <div class="organizer-links">
+            {% if coordinator.website != "" %}<a href="{{ coordinator.website }}" target="_blank" rel="noopener">Website</a>{% endif %}
+            {% if coordinator.scholar != "" %}<a href="{{ coordinator.scholar }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 </section>

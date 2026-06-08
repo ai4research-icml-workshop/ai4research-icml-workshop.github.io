@@ -14,14 +14,6 @@
   website: ""
   scholar: ""
 
-- name: Qingsong Wang
-  sort_name: "Wang, Qingsong"
-  affiliation: "UC San Diego"
-  photo: /assets/img/volunteers/qingsong-wang.jpg
-  bio: "Qingsong Wang is a postdoctoral researcher at UC San Diego, working with Prof. Mikhail Belkin and Prof. Yusu Wang. His research interests include diffusion and flow-matching generative models, data geometry, and representation learning."
-  website: "https://www.qingsong-wang.org/"
-  scholar: ""
-
 - name: Sunay Joshi
   sort_name: "Joshi, Sunay"
   affiliation: "University of Pennsylvania"

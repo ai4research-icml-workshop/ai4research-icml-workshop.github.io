@@ -571,6 +571,20 @@
   gap: 24px;
 }
 
+.organizers-grid--coordinator {
+  margin-top: 16px;
+}
+
+.section-subheading {
+  margin: 32px 0 0;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $color-text-secondary;
+  font-family: $font-sans;
+}
+
 .organizer-card {
   display: flex;
   gap: 18px;
@@ -607,6 +621,14 @@
 .organizer-affil {
   font-size: 14px;
   color: $color-text-secondary;
+  font-family: $font-sans;
+}
+
+.organizer-role {
+  margin-top: 2px;
+  font-size: 13px;
+  font-weight: 600;
+  color: $color-accent;
   font-family: $font-sans;
 }
 
