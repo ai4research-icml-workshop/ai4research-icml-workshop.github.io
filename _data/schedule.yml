@@ -59,11 +59,11 @@
   affiliation: "Columbia University / OpenAI"
   type: talk
 
-- time: "15:00–15:30"
+- time: "15:00–15:20"
   title: "Coffee break"
   type: break
 
-- time: "15:30–16:30"
+- time: "15:20–16:30"
   title: "Structured Debate"
   debaters:
     - "Niloofar Mireshghallah"
