@@ -23,16 +23,16 @@
   website: "https://remydegenne.github.io/"
   scholar: ""
 
-- name: Damek Davis
-  affiliation: "University of Pennsylvania"
-  photo: /assets/img/speakers/davis.jpg
+- name: Tim Gehrunger
+  affiliation: "ETH Zurich"
+  photo: /assets/img/speakers/gehrunger.jpg
   bio: >-
-    Damek Davis is an Associate Professor in Wharton's Department of Statistics
-    and Data Science. His research interests are optimization and machine
-    learning, and he also works on AI for mathematics. He is currently an
-    associate editor at Mathematical Programming and Foundations of
-    Computational Mathematics.
-  website: "https://damek.github.io/"
+    Tim Gehrunger is a postdoctoral researcher in arithmetic geometry at ETH
+    Zurich. His research focuses on stable reduction of hyperelliptic curves and
+    applications to the Parity conjecture. He is part of the organizing team of
+    IMProofBench and has contributed questions to research-level datasets
+    including Humanity's Last Exam.
+  website: "https://people.math.ethz.ch/~timge/"
   scholar: ""
 
 - name: Diyi Yang
