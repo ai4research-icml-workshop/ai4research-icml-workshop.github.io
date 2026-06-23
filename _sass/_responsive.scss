@@ -205,6 +205,10 @@
     min-width: auto;
   }
 
+  .debate-roster {
+    grid-template-columns: 1fr;
+  }
+
   .section-heading {
     font-size: 20px;
   }
