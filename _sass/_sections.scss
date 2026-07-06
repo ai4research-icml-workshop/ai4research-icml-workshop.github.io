@@ -286,6 +286,21 @@
   font-size: 15px;
   color: #333;
   font-family: $font-sans;
+  line-height: 1.45;
+  min-width: 0;
+  flex: 1;
+}
+
+.schedule-talk-title {
+  color: $color-text;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.schedule-talk-meta {
+  margin-top: 3px;
+  font-size: 14px;
 }
 
 .schedule-speaker {
@@ -313,6 +328,41 @@
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+.schedule-abstract {
+  margin-top: 10px;
+  max-width: 68ch;
+  font-family: $font-sans;
+
+  summary {
+    cursor: pointer;
+    color: $color-accent;
+    font-size: 13px;
+    font-weight: 600;
+    width: fit-content;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.schedule-abstract-body {
+  border-left: 2px solid $color-border-light;
+  color: $color-text-secondary;
+  font-size: 14px;
+  line-height: 1.65;
+  margin-top: 8px;
+  padding-left: 12px;
+
+  p {
+    margin: 0 0 10px;
+
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 }

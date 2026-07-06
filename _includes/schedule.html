@@ -16,9 +16,22 @@
                 {% assign speaker_data = s %}
               {% endif %}
             {% endfor %}
+            {% if item.talk_title and item.talk_title != "" %}
+            <div class="schedule-talk-title">{{ item.talk_title }}</div>
+            <div class="schedule-talk-meta">
+              {% if speaker_data and speaker_data.website != "" %}<a href="{{ speaker_data.website }}" target="_blank" rel="noopener" class="schedule-speaker">{{ item.speaker }}</a>{% else %}<span class="schedule-speaker">{{ item.speaker }}</span>{% endif %}
+            </div>
+            {% else %}
             {{ item.title }}: {% if speaker_data and speaker_data.website != "" %}<a href="{{ speaker_data.website }}" target="_blank" rel="noopener" class="schedule-speaker">{{ item.speaker }}</a>{% else %}<span class="schedule-speaker">{{ item.speaker }}</span>{% endif %}
+            {% endif %}
             {% if item.affiliation and item.affiliation != "" %}
             <div class="schedule-detail">{{ item.affiliation }}</div>
+            {% endif %}
+            {% if item.abstract and item.abstract != "" %}
+            <details class="schedule-abstract">
+              <summary>Abstract</summary>
+              <div class="schedule-abstract-body">{{ item.abstract | markdownify }}</div>
+            </details>
             {% endif %}
             {% if item.links %}
             <div class="schedule-detail schedule-links">

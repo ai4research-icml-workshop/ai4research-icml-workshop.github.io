@@ -6,6 +6,18 @@
   title: "Talk"
   speaker: "Sergei Gukov"
   affiliation: "Caltech · American Institute of Mathematics"
+  talk_title: "The role of AI in mathematical (re)search"
+  abstract: >-
+    At its core, scientific research is a search, a search for new ideas, new
+    patterns, and new ways to explain or prove things. In this talk, I invite
+    you to explore how AI is reshaping different stages of this process. We
+    will see that while AI excels at many tasks, it still hesitates on others,
+    such as long-horizon reasoning or far-out-of-distribution generalization. I
+    view this as good news: it highlights how much meaningful AI research
+    remains to be done. In fact, the goal of expanding AI's role in
+    mathematical research has become a motivation for advancing AI itself. I am
+    genuinely excited that these two fields have come into such close contact
+    over the past few years.
   type: talk
 
 - time: "09:05–09:40"
@@ -22,12 +34,36 @@
   title: "Talk"
   speaker: "Tim Gehrunger"
   affiliation: "ETH Zurich"
+  talk_title: "Agentic AI for Mathematical Research"
+  abstract: >-
+    Can frontier AI systems make autonomous progress on research-level
+    mathematical problems? Can mathematicians use them to accelerate their own
+    research in substantive ways? As model capabilities improve, the answer to
+    both questions is an increasingly confident, though still cautious, "yes."
+    In this talk, I will survey the mathematical reasoning capabilities of
+    current frontier models, with a particular focus on agentic systems for
+    theorem proving and mathematical exploration. I will discuss what these
+    systems can already do, where they still fail, and what kinds of workflows
+    seem most promising for human-AI collaboration. I will then examine the
+    results from the First Proof, Second Batch competition in detail, with a
+    focus on the design and performance of ProofCouncil, an agentic system for
+    research-level mathematics.
   type: talk
 
 - time: "10:35–11:10"
   title: "Talk"
   speaker: "Niao He"
   affiliation: "ETH Zurich"
+  talk_title: "From Learning to Discovery: Lessons from a Semester of AI-Assisted Optimization Seminar"
+  abstract: >-
+    Can AI enable students to contribute to research before completing the
+    traditional path to expertise? And can working on research open problems
+    itself become an effective mode of learning? In a semester-long seminar,
+    teams of bachelor's and master's students used AI tools to investigate nine
+    open problems in optimization. Drawing on both successful and unresolved
+    cases, this talk explores how AI can support just-in-time learning,
+    accelerate mathematical exploration, and enable earlier participation in
+    research.
   type: talk
 
 - time: "11:10–11:50"
@@ -49,6 +85,27 @@
   title: "Talk"
   speaker: "Diyi Yang"
   affiliation: "Stanford University"
+  talk_title: "Beyond Autonomy: Human-AI Collaboration in Science"
+  abstract: >-
+    Recent advances in LLMs have sparked excitement about AI for science, with
+    growing evidence that these systems can generate ideas, run experiments, and
+    accelerate discovery. Yet this framing centers the AI half of the loop,
+    leaving the human half—who collaborates, who benefits, and how—underexamined.
+    In this talk, we argue that realizing AI for science requires
+    studying not just what models can do, but how people work with them. We
+    first examine the ideation-execution gap: although LLM-generated ideas
+    appear more novel than expert ideas at the proposal stage, our large
+    execution study shows this advantage collapses once ideas are implemented,
+    with AI scores dropping significantly. We then ask whether grounding
+    research in real execution can close this gap, presenting a system that
+    builds automated executors and learns from large-scale experimental feedback
+    via evolutionary search and reinforcement learning. Finally, we ask how to
+    measure collaboration itself, presenting CollabSkill, a framework that uses
+    Bayesian skill rating to disentangle human and agent contributions and
+    reveals that collaboration rankings diverge from autonomous benchmarks. We
+    conclude by discussing how realizing the promise of AI for science depends
+    on not only model capability, but also on designing the collaboration
+    between them.
   type: talk
 
 - time: "13:50–14:25"
@@ -60,6 +117,12 @@
   title: "Talk"
   speaker: "Mehtaab Sawhney"
   affiliation: "Columbia University / OpenAI"
+  talk_title: "Recent progress on AI for math"
+  abstract: >-
+    We survey recent pace of progress on AI in mathematics; in particular
+    discussing how models have progressed over the past 6-12 months. A portion
+    of the talk will be devoted to how models have played a role in my own
+    mathematical research.
   type: talk
 
 - time: "15:00–15:20"
