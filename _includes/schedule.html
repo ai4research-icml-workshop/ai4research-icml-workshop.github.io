@@ -20,6 +20,13 @@
             {% if item.affiliation and item.affiliation != "" %}
             <div class="schedule-detail">{{ item.affiliation }}</div>
             {% endif %}
+            {% if item.links %}
+            <div class="schedule-detail schedule-links">
+              {% for link in item.links %}
+                <a href="{{ link.url | relative_url }}" target="_blank" rel="noopener">{{ link.text }}</a>{% unless forloop.last %}<span class="schedule-link-separator"> · </span>{% endunless %}
+              {% endfor %}
+            </div>
+            {% endif %}
           {% elsif item.debaters %}
             {{ item.title }}:
             {% for debater_name in item.debaters %}
@@ -34,10 +41,24 @@
             {% if item.detail and item.detail != "" %}
             <div class="schedule-detail">{{ item.detail }}</div>
             {% endif %}
+            {% if item.links %}
+            <div class="schedule-detail schedule-links">
+              {% for link in item.links %}
+                <a href="{{ link.url | relative_url }}" target="_blank" rel="noopener">{{ link.text }}</a>{% unless forloop.last %}<span class="schedule-link-separator"> · </span>{% endunless %}
+              {% endfor %}
+            </div>
+            {% endif %}
           {% else %}
             {{ item.title }}
             {% if item.detail and item.detail != "" %}
             <div class="schedule-detail">{{ item.detail }}</div>
+            {% endif %}
+            {% if item.links %}
+            <div class="schedule-detail schedule-links">
+              {% for link in item.links %}
+                <a href="{{ link.url | relative_url }}" target="_blank" rel="noopener">{{ link.text }}</a>{% unless forloop.last %}<span class="schedule-link-separator"> · </span>{% endunless %}
+              {% endfor %}
+            </div>
             {% endif %}
           {% endif %}
         </div>

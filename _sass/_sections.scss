@@ -306,6 +306,15 @@
   color: $color-text-secondary;
   margin-top: 2px;
   font-family: $font-sans;
+
+  a {
+    color: $color-accent;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 // Debate

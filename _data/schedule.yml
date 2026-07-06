@@ -36,6 +36,9 @@
 
 - time: "11:50–13:00"
   title: "Poster session (bring your own lunch)"
+  links:
+    - text: "Poster board assignments"
+      url: "/assets/pdf/AI4Research_poster_board_assignments_with_map.pdf"
   type: event
 
 - time: "13:00–13:15"
