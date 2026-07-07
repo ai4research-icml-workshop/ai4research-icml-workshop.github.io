@@ -24,6 +24,18 @@
   title: "Talk"
   speaker: "Remy Degenne"
   affiliation: "University of Lille · Inria"
+  talk_title: "Can we accelerate formal mathematics with AI?"
+  abstract: >-
+    LLM-powered AI agents are now useful assistants for mathematical research,
+    but they are unreliable and checking their output for errors is difficult
+    and time-consuming. To fix that issue, they can be paired with a formal
+    mathematics system like Lean, to automatically verify their proofs. That is
+    however only possible if the mathematics of interest is expressible in Lean.
+    Large parts of research maths are still out of reach, because their
+    prerequisites have not been formalized yet. Can we use AI auto-formalization
+    to accelerate the formalization of the literature and catch up to recent
+    research? I will discuss the current efforts and challenges for the
+    AI-assisted acceleration of formal mathematics.
   type: talk
 
 - time: "09:40–10:00"
