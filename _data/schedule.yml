@@ -6,7 +6,7 @@
   title: "Talk"
   speaker: "Sergei Gukov"
   affiliation: "Caltech · American Institute of Mathematics"
-  talk_title: "The role of AI in mathematical (re)search"
+  talk_title: "The Role of AI in Mathematical (Re)search"
   abstract: >-
     At its core, scientific research is a search, a search for new ideas, new
     patterns, and new ways to explain or prove things. In this talk, I invite
@@ -24,7 +24,7 @@
   title: "Talk"
   speaker: "Remy Degenne"
   affiliation: "University of Lille · Inria"
-  talk_title: "Can we accelerate formal mathematics with AI?"
+  talk_title: "Can We Accelerate Formal Mathematics with AI?"
   abstract: >-
     LLM-powered AI agents are now useful assistants for mathematical research,
     but they are unreliable and checking their output for errors is difficult
@@ -129,7 +129,7 @@
   title: "Talk"
   speaker: "Mehtaab Sawhney"
   affiliation: "Columbia University / OpenAI"
-  talk_title: "Recent progress on AI for math"
+  talk_title: "Recent Progress on AI for Math"
   abstract: >-
     We survey recent pace of progress on AI in mathematics; in particular
     discussing how models have progressed over the past 6-12 months. A portion
@@ -142,7 +142,7 @@
   type: break
 
 - time: "15:20–16:30"
-  title: "Structured Debate"
+  title: "Structured Debate: Human Research After Superhuman AI"
   detail: "A structured, anti-debate-inspired discussion"
   debaters:
     - "Niloofar Mireshghallah"

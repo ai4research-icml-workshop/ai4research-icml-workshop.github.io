@@ -41,7 +41,8 @@
             </div>
             {% endif %}
           {% elsif item.debaters %}
-            {{ item.title }}:
+            <div class="schedule-talk-title">{{ item.title }}</div>
+            <div class="schedule-talk-meta">
             {% for debater_name in item.debaters %}
               {% assign debater_data = nil %}
               {% for d in site.data.debaters %}
@@ -51,6 +52,7 @@
               {% endfor %}
               {% if debater_data and debater_data.website != "" %}<a href="{{ debater_data.website }}" target="_blank" rel="noopener" class="schedule-speaker">{{ debater_name }}</a>{% else %}<span class="schedule-speaker">{{ debater_name }}</span>{% endif %}{% unless forloop.last %} vs. {% endunless %}
             {% endfor %}
+            </div>
             {% if item.detail and item.detail != "" %}
             <div class="schedule-detail">{{ item.detail }}</div>
             {% endif %}
