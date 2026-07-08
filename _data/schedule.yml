@@ -123,6 +123,23 @@
 - time: "13:50–14:25"
   title: "Oral presentations and Q&A"
   detail: "4 orals, 7 minutes each, followed by 7 minutes of Q&A"
+  orals:
+    - submission: "029"
+      title: "The Agentic Researcher: A Practical Guide to AI-Assisted Research in Mathematics and Machine Learning"
+      authors: "Max Zimmer, Nico Pelleriti, Christophe Roux, Sebastian Pokutta"
+      url: "https://openreview.net/forum?id=vpcw03stJR"
+    - submission: "043"
+      title: "GoodPoint: Learning Constructive Scientific Paper Feedback from Author Responses"
+      authors: "Jimin Mun, Chani Jung, Xuhui Zhou, Maarten Sap, Hyunwoo Kim"
+      url: "https://openreview.net/forum?id=hDccmUkqCS"
+    - submission: "059"
+      title: "Human-AI Hybrid Mathematical Discovery Workflow: Unifying Ramanujan's 17 Series for 1/pi"
+      authors: "Michael Shalyt, Elyasheev Leibtag, Shachar Weinbaum, Ido Kaminer"
+      url: "https://openreview.net/forum?id=YzyexJPIJY"
+    - submission: "060"
+      title: "Agent-Based Auditing of Mathematical Proofs in Research Papers"
+      authors: "Ngoc-Hieu Nguyen, Rui Zhang"
+      url: "https://openreview.net/forum?id=GWKbSM8yCw"
   type: event
 
 - time: "14:25–15:00"

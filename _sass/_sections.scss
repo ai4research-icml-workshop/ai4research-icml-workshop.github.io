@@ -332,6 +332,49 @@
   }
 }
 
+.schedule-orals {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: grid;
+  gap: 9px;
+  max-width: 68ch;
+}
+
+.schedule-oral {
+  border-left: 2px solid $color-border-light;
+  padding-left: 12px;
+}
+
+.schedule-oral-title {
+  color: $color-text;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.45;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-accent;
+      text-decoration: underline;
+    }
+  }
+}
+
+.schedule-oral-id {
+  color: $color-text-secondary;
+  font-weight: 500;
+}
+
+.schedule-oral-authors {
+  color: $color-text-secondary;
+  font-size: 13px;
+  line-height: 1.45;
+  margin-top: 2px;
+}
+
 .schedule-abstract {
   margin-top: 10px;
   max-width: 68ch;

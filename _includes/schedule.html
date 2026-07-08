@@ -68,6 +68,24 @@
             {% if item.detail and item.detail != "" %}
             <div class="schedule-detail">{{ item.detail }}</div>
             {% endif %}
+            {% if item.orals %}
+            <ul class="schedule-orals">
+              {% for oral in item.orals %}
+              <li class="schedule-oral">
+                <div class="schedule-oral-title">
+                  {% if oral.url and oral.url != "" %}
+                  <a href="{{ oral.url }}" target="_blank" rel="noopener"><span class="schedule-oral-id">#{{ oral.submission }}</span> {{ oral.title }}</a>
+                  {% else %}
+                  <span><span class="schedule-oral-id">#{{ oral.submission }}</span> {{ oral.title }}</span>
+                  {% endif %}
+                </div>
+                {% if oral.authors and oral.authors != "" %}
+                <div class="schedule-oral-authors">{{ oral.authors }}</div>
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
             {% if item.links %}
             <div class="schedule-detail schedule-links">
               {% for link in item.links %}
