@@ -50,7 +50,7 @@
                   {% assign debater_data = d %}
                 {% endif %}
               {% endfor %}
-              {% if debater_data and debater_data.website != "" %}<a href="{{ debater_data.website }}" target="_blank" rel="noopener" class="schedule-speaker">{{ debater_name }}</a>{% else %}<span class="schedule-speaker">{{ debater_name }}</span>{% endif %}{% unless forloop.last %} vs. {% endunless %}
+              {% if debater_data and debater_data.website != "" %}<a href="{{ debater_data.website }}" target="_blank" rel="noopener" class="schedule-speaker">{{ debater_name }}</a>{% else %}<span class="schedule-speaker">{{ debater_name }}</span>{% endif %}{% if debater_data and debater_data.affiliation != "" %} <span class="schedule-debater-affiliation">({{ debater_data.affiliation }})</span>{% endif %}{% unless forloop.last %} vs. {% endunless %}
             {% endfor %}
             </div>
             {% if item.detail and item.detail != "" %}
